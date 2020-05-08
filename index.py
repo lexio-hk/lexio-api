@@ -19,8 +19,6 @@ import jwt
 import time
 
 
-app = FastAPI()
-
 def get_db():
     try:
         db = SessionLocal()

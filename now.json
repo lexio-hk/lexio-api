@@ -1,11 +1,7 @@
 {
   "name": "lexio-api",
   "version": 2,
-  "env": {
-    "DATABASE_URL": "@my-database-name"
-  },
   "builds": [
     { "src": "*.py", "use": "@now/python" }
   ]
-
 }
